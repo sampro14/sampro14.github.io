@@ -167,7 +167,7 @@ a:focus-visible,button:focus-visible,#gl:focus-visible{outline:2px solid var(--s
  <ul class="pts">
   <li><b>Execution is the ground truth</b><span>Seven agents from plan to repair. Generated code runs in a locked-down Docker sandbox with no network.</span></li>
   <li><b>Every failure gets an owner</b><span>A rule-based classifier, with an LLM fallback, names the failure category and the agent responsible.</span></li>
-  <li><b>The evaluator is tested too</b><span>22 planted bugs it must catch and attribute, across Anthropic, OpenAI, Gemini and DeepSeek.</span></li>
+  <li><b>The evaluator is tested too</b><span>16 planted bugs it must catch and attribute, and 6 clean controls it must pass, across Anthropic, OpenAI, Gemini and DeepSeek.</span></li>
  </ul>
  <div class="act"><a class="b p" href="https://github.com/sampro14/agentval_system" target="_blank" rel="noopener">View code</a></div>
 </section>
@@ -190,7 +190,7 @@ a:focus-visible,button:focus-visible,#gl:focus-visible{outline:2px solid var(--s
  <ul class="pts">
   <li><b>Two independent readings</b><span>Models from different families read each invoice. Any disagreement blocks approval.</span></li>
   <li><b>Eight rule checks in code</b><span>Totals, tax IDs, currency and dates are never left to the model.</span></li>
-  <li><b>People review the doubtful ones</b><span>LangGraph interrupt() hands them over, measured on a 300-document held-out set.</span></li>
+  <li><b>People review the doubtful ones</b><span>LangGraph interrupt() hands them over. A 300-document held-out set is locked in; results are in progress.</span></li>
  </ul>
  <div class="act"><a class="b p" href="https://github.com/sampro14/invoiceiq" target="_blank" rel="noopener">View code</a></div>
 </section>
